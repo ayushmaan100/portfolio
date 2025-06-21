@@ -58,12 +58,22 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+          Hi! I’m Ayushmaan, a dedicated and enthusiastic Full-Stack Developer
+          and a Computer Science undergraduate at NIT Patna (2026). I love turning
+          ideas into scalable, efficient, and user-friendly web applications. My
+          core development stack includes React.js, Next.js, Node.js, MongoDB, and 
+          Tailwind CSS—tools I’ve used extensively to build responsive UIs, powerful APIs, 
+          and real-time features. I’ve also worked with Flask and Firebase on the backend, 
+          especially for projects involving AI and machine learning, integrating models built
+           with Python, NumPy, Pandas, TensorFlow, and Scikit-learn. I’m comfortable working
+          across the full stack — from designing intuitive frontends to architecting robust
+          backend systems with secure authentication using JWT, real-time communication via 
+          Socket.IO, and clean API structures with Express.js. Tools like Git, GitHub, and 
+          VS Code help me stay efficient, and my strong foundation in CS fundamentals (DSA, DBMS, OS, CN)
+           ensures I build with performance and reliability in mind.
+
+        Currently, I’m on the lookout for an internship opportunity where I can level up my skills,
+         contribute to meaningful projects, and learn from amazing developers. If you think we’d make a great team — let’s connect!
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
