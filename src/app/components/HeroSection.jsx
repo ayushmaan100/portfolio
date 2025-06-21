@@ -37,20 +37,18 @@ const HeroSection = () => {
           Passionate full-stack developer with expertise in React.js, Next.js, Node.js, 
           and MongoDB. I focus on building scalable, high-performance web applications with clean architecture and responsive design.
           </p>
-          <div>
+          <div className="flex flex-col sm:flex-row gap-4">
             <Link
               href="/#contact"
-              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
+              className="px-6 py-3 rounded-full bg-orange-600 text-white text-center hover:bg-[#2c2c2c] w-full sm:w-auto"
             >
               Hire Me
             </Link>
             <Link
-              href="/"
-              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
+              href="/CV.pdf"
+              className="px-6 py-3 rounded-full bg-orange-600 text-white text-center hover:bg-[#2c2c2c] w-full sm:w-auto"
             >
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                Download CV
-              </span>
+              Download CV
             </Link>
           </div>
         </motion.div>

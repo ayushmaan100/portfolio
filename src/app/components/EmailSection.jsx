@@ -59,12 +59,12 @@ const EmailSection = () => {
           <Link href="https://github.com/ayushmaan100">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
-          <Link href="linkedin.com/in/ayushmaan-tiwari-61126916b/">
+          <Link href="https://www.linkedin.com/in/ayushmaan-tiwari-61126916b/">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
-          </Link>
+            </Link>
         </div>
       </div>
-      <div>
+      <div className="bg-black p-6 rounded-lg">
         {emailSubmitted ? (
           <p className="text-green-500 text-sm mt-2">
             Email sent successfully!
@@ -84,7 +84,7 @@ const EmailSection = () => {
                 id="email"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="jacob@google.com"
+                placeholder="ayushmaan@google.com"
               />
             </div>
             <div className="mb-6">
@@ -100,7 +100,7 @@ const EmailSection = () => {
                 id="subject"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="Just saying hi"
+                placeholder="Let's Connect"
               />
             </div>
             <div className="mb-6">
@@ -119,7 +119,7 @@ const EmailSection = () => {
             </div>
             <button
               type="submit"
-              className="bg-primary-500 hover:bg-primary-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
+              className="bg-primary-500 hover:bg-primary-600 text-white font-semibold py-3 px-6 rounded-full w-full shadow-md hover:shadow-lg transition duration-300 ease-in-out"
             >
               Send Message
             </button>
