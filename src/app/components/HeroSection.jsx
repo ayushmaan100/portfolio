@@ -39,7 +39,7 @@ const HeroSection = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
-              href="/#contact"
+              href="mailto:ayushmaan.at2004@gmail.com"
               className="px-6 py-3 rounded-full bg-orange-600 text-white text-center hover:bg-[#2c2c2c] w-full sm:w-auto"
             >
               Hire Me

@@ -8,7 +8,7 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <ul className="grid grid-cols-2 list-disc pl-4 gap-y-1">
+      <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 list-disc pl-4 gap-y-1">
         <li>Python</li>
         <li>C/C++</li>
         <li>JavaScript</li>
@@ -64,12 +64,14 @@ const AboutSection = () => {
 
   return (
     <section className="text-white" id="about">
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" alt="Illustration representing the developer" width={500} height={500} />
-        <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
+      <div className="flex flex-col py-8 px-4 xl:px-16 sm:py-16">
+        <div className="flex justify-center -mt-8">
+          <Image src="/images/about-image.png" alt="Illustration representing the developer" width={700} height={500} />
+        </div>
+        <div className="mt-8 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            Hi! I’m Ayushmaan, a dedicated and enthusiastic Full-Stack Developer and a Final year Computer Science undergraduate at NIT Patna (2026). I love turning ideas into scalable, efficient, and user-friendly web applications. My core development stack includes React.js, Next.js, Node.js, MongoDB, and Tailwind CSS—tools I’ve used extensively to build responsive UIs, powerful APIs, and real-time features. I’ve also worked with Flask and Firebase on the backend, especially for projects involving AI and machine learning, integrating models built with Python, NumPy, Pandas, TensorFlow, and Scikit-learn. I’m comfortable working across the full stack — from designing intuitive frontends to architecting robust backend systems with secure authentication using JWT, real-time communication via Socket.IO, and clean API structures with Express.js. Tools like Git, GitHub, and VS Code help me stay efficient, and my strong foundation in CS fundamentals (DSA, DBMS, OS, CN) ensures I build with performance and reliability in mind.
+            Hi! I’m Ayushmaan, a dedicated and enthusiastic Full-Stack Developer and a Final year Computer Science undergraduate at NIT Patna (2026). I love turning ideas into scalable, efficient, and user-friendly web applications. I’ve solved over 2000+ problems on all coding platforms, achieved a Codeforces rating of 1250+(Pupil), and earned a CodeChef rating of 1650+(3⭐️) and with leetcode rating of 1850+(knight). My core development stack includes React.js, Next.js, Node.js, MongoDB, and Tailwind CSS—tools I’ve used extensively to build responsive UIs, powerful APIs, and real-time features. I’ve also worked with Flask and Firebase on the backend, especially for projects involving AI and machine learning, integrating models built with Python, NumPy, Pandas, TensorFlow, and Scikit-learn. I’m comfortable working across the full stack — from designing intuitive frontends to architecting robust backend systems with secure authentication using JWT, real-time communication via Socket.IO, and clean API structures with Express.js. Tools like Git, GitHub, and VS Code help me stay efficient.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
